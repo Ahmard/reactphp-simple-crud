@@ -1,0 +1,18 @@
+{
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "react/mysql": "^0.5.4",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "Crud\\": "crud/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}
