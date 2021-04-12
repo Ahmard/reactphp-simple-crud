@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 use Crud\User;
 use React\EventLoop\Factory;
 
-require dirname(__DIR__, 1) . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $loop = Factory::create();
 

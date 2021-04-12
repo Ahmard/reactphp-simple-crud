@@ -22,6 +22,12 @@ DB_HOST = "127.0.0.1"
 DB_NAME = "myDatabase"
 ```
 
+## Install DB Tables
+Before using this crud demo, DB tables must be installed first.
+```bash
+php create-tables.php
+```
+
 ## Running Demo
 
 [Create](create.php) new user
